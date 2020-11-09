@@ -1,0 +1,101 @@
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: black;
+}
+
+.navbarAlignment {
+    position: absolute !important;
+    z-index: 2;
+    background-color: transparent !important;
+}
+
+.description-title {
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.description-text {
+    font-size: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color:grey;
+}
+
+.button-text {
+    font-size: 12px;
+    letter-spacing: 6px;  
+    color:grey;  
+    font-weight: bold;
+}
+
+.button-img {
+    margin-left: 15px; 
+    height: 18px; 
+    width: 45px;
+}
+
+.about-title {
+    font-weight: bold;
+    padding-top:40px;
+    padding-bottom: 10px; 
+    padding-left: 35px; 
+    padding-right: 35px
+}
+
+.about-text {
+    font-size: 12px; 
+    padding-left: 35px; 
+    padding-right: 35px; 
+    color:grey
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-div {
+        display: flex;
+        position: absolute;
+        top: -82px;
+        right: -3px;
+    }
+  }
+  
+  @media screen and (min-width: 600px) {
+    .carousel-div {
+        display: flex; 
+        position: absolute; 
+        bottom: 0;
+    }
+  }
+
+.carousel-display {
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    transition: opacity .15s ease;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+}
+
+
+.col {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
